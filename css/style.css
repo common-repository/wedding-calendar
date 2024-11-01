@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Kameron-bold';
+    src:  url('../fonts/Kameron-Bold.ttf') format('truetype')    
+}
+@font-face {
+    font-family: 'Kameron-regular';
+    src:  url('../fonts/Kameron-Regular.ttf') format('truetype'),
+}
+#inwedcal-forms-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form#inwedcalcalform {
+    display: inline-flex;
+}
+.inwedcal_nav_item {
+    font-size: 40px;
+    color: #2d8380;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block;
+    line-height: 1;
+}
+#cmonthly_cal
+{
+    border-collapse: collapse;
+    text-align: center;
+    color: #2d8380;
+    width: 100%;
+    font-family: 'Kameron-regular';
+    font-size: 16px;
+}
+#cmonthly_cal tr , #cmonthly_cal td
+{
+    border:1px solid black;
+    
+}
+#cmonthly_cal td.today {
+    background: #40fff7;
+}
+#cmonthly_cal .bgg
+{
+    background-color:#e5e5e5;
+}
+#cmonthly_cal .bgw
+{
+    background-color:#fff;
+}
+
+#cmonthly_cal .bgr
+{
+    background-color:red !important;
+    color:#fff;
+}
+.inwedcal_calforms div
+{
+    float: left;
+    margin-right: 10%;
+}
